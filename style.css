@@ -48,3 +48,19 @@ textarea{
 textarea::placeholder{
     color: rgb(202, 199, 199);
 }
+@media (max-width: 768px) {
+    .grid {
+        padding: 15px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+}
